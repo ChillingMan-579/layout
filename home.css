@@ -1,0 +1,108 @@
+@font-face {
+  font-family: heycomic;
+  src: url("Hey\ Comic.ttf");
+}
+
+html, body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: heycomic, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title{
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #edf2f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 5rem;
+  color: #121212;
+}
+
+.intro{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9ecef;
+}
+
+.intro-text{
+  color: #e8e8e8;
+  margin:30px 150px;
+  font-size: 2rem;
+  text-align: center;
+  color: #111111;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+
+.hero{
+  min-height: 100vh;
+  background-color: #dee2e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pelajaran{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.matpel{
+  padding: 15px;
+  width: 35%;
+}
+
+.title-matpel{
+  font-size: 2rem;
+  padding: 5px 0;
+}
+
+.content-matpel{
+  font-size: 1.5rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 25px 0;
+  background-color: #212529;
+}
+
+.by{
+  font-size: 18px;
+  color: #DEE2E6;
+}
+
+
+@keyframes fadeIn{
+  0% {opacity: 0;}
+  100%{opacity:1;}
+}

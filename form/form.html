@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../nav.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="../home.html" class="menu">Home</a>
+        <div class="menu dropdown">
+          <div class="dropbtn">Matematika</div>
+          <div class="drop-content">
+            <a href="../pers-lingk.html">Persamaan Lingkaran</a>
+            <a href="../ked-lingk.html">Kedudukan Lingkaran</a>
+          </div>
+        </div>
+        <div class="menu dropdown">
+            <div class="dropbtn">Fisika</div>
+            <div class="drop-content">
+              <a href="../fisika.html#gaya">Gaya Gravitasi</a>
+              <a href="../fisika.html#medan">Medan Gravitasi</a>
+            </div>
+          </div>
+        <div class="menu dropdown">
+          <div class="dropbtn">Sejarah</div>
+          <div class="drop-content">
+            <a href="../kolonialisme.html">Kolonialisme</a>
+            <a href="../imperialisme.html">Imperialisme</a>
+          </div>
+        </div>
+        <div class="menu dropdown">
+            <div class="dropbtn">PKN</div>
+            <div class="drop-content">
+              <a href="../pkn.html#hakkew">Hak dan Kewajiban</a>
+              <a href="../pkn.html#ham">Hak Asasi Manusia</a>
+            </div>
+          </div>
+        <a href="form.html" class="menu">Form</a>
+        <a href="../biodata/biodata.html" class="menu">Tentang Saya</a>
+      </div>
+    <form action="" method="get">
+        <div class="row">
+            <label>No. Pendaftaran : </label>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label>Nama : </label>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label>Jenis Kelamin : </label>
+            <input type="radio" name="jenisk" value="lakilaki">Laki-laki
+            <input type="radio" name="jenisk" value="perempuan">Perempuan
+        </div>
+        <div class="row">
+            <label>Pekerjaan : </label>
+            <input type="text" name="pekerjaan">
+        </div>
+        <div class="row">
+            <label>Status Pernikahan : </label>
+            <input type="checkbox" name="statusp">Menikah
+            <input type="checkbox" name="statusp">Belum Menikah
+            <input type="checkbox" name="statusp">Janda
+            <input type="checkbox" name="statusp">Duda
+        </div>
+        <div class="row">
+            <label >Alamat : </label>
+            <textarea rows="3" cols="50"></textarea>
+        </div>
+        <div class="row">
+            <label>Agama : </label>
+            <select>
+                <option>Buddha</option>
+                <option>Kong Hu Cu</option>
+                <option>Katolik</option>
+                <option>Protestan</option>
+                <option>Islam</option>
+            </select>
+        </div>
+        <div class="row">
+            <label>RT : </label>
+            <input type="text" name="RT">
+        </div>
+        <div class="row">
+            <label>RW : </label>
+            <input type="text" name="RW">
+        </div>
+        <div class="row">
+            <label>Kelurahan : </label>
+            <input type="text" name="kelurahan">
+        </div>
+        <div class="row">
+            <label>kecamatan : </label>
+            <input type="text" name="kecamatan">
+        </div>
+        <div class="row">
+            <label>Kabupaten : </label>
+            <input type="text" name="kabupaten">
+        </div>
+        <div class="row">
+            <label>Provinsi : </label>
+            <input type="text" name="provinsi">
+        </div>
+        <div class="row">
+            <label>Tanggal Pendaftaran : </label>
+            <label>Tanggal</label>
+            <input type="text" name="tanggal">
+            <label>Bulan</label>
+            <input type="text" name="bulan">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

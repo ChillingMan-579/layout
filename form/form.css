@@ -1,0 +1,36 @@
+@font-face{
+    font-family: noto-sans;
+    src: url(https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap);
+}
+
+html, body{
+    width: 100vw;
+    margin: 0;
+}
+
+body{
+    font-family: "noto-sans", 'Times New Roman', Times, serif;
+}
+
+form{
+    margin: 15px;
+    margin-top: 65px;
+    display: table;
+    border: 2px solid blue;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+.row{
+    display: table-row;
+}
+
+label, input{
+    display: table-cell;
+    margin: 20px 0 0 35px;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+}

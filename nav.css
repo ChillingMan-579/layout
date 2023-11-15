@@ -1,0 +1,59 @@
+@font-face {
+  font-family: heycomic;
+  src: url("Hey\ Comic.ttf");
+}
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(17, 17, 17, 0.8);
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    font-family: heycomic, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .menu{
+    text-decoration: none;
+    color: #e8e8e8;
+    padding: 20px;
+    font-size: 23px;
+  }
+  
+  .menu:hover{
+    background-color: #343434;
+    cursor: pointer;
+  }
+  
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .drop-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0%;
+  }
+  
+  .drop-content a{
+    width: 150px;
+    background-color: rgba(17, 17, 17, 0.8);
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .dropdown:hover .drop-content{
+    display: block;   
+  }
+  
+  .drop-content a:hover{
+    background-color: #343434; 
+  }
+  
